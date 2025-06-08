@@ -9,9 +9,8 @@ void ft_print_comb (void){
                 char c = '0' + k;
 
 
-                write(1, &a, 1);
-                write(1, &b, 1);
-                write(1, &c, 1);
+                char comb[3] = {a, b , c};
+                write(1, comb, 3);
 
 
                 if (a != 7 || b != 8 || c != 9 ){

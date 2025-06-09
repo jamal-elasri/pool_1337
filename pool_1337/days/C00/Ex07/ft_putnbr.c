@@ -7,7 +7,7 @@ void ft_put_char(char c){
 void ft_putnbr(int nb){
 	if (nb == -2147483648){
 		ft_put_char('-');
-		ft_put_char(2);
+		ft_put_char('2');
 		ft_putnbr(147483648);
 		
 	}

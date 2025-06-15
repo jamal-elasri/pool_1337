@@ -12,7 +12,7 @@ void ft_putnbr(int nb){
 	else if(nb < 0){
 		ft_put_char('-');
 		nb = -nb;
-		ft_putnbr(nb);
+		ft_putnbr(nb + 0);
 	}
 	else if(nb > 9){
 		ft_putnbr(nb / 10);
